@@ -10,7 +10,6 @@ namespace BlobSampleNML {
     /// <summary>
     /// Interaction logic for Window2.xaml
     /// </summary>
-    /* ref http://stackoverflow.com/questions/8084590/how-to-load-image-from-sql-server-into-picture-box */
 
     public partial class Window2 : Window {
         public Window2() {
