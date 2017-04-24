@@ -1,4 +1,5 @@
-﻿using System.Windows;
+﻿using System;
+using System.Windows;
 
 namespace BlobSampleNML {
     /// <summary>
@@ -17,6 +18,10 @@ namespace BlobSampleNML {
         private void button1_Click(object sender, RoutedEventArgs e) {
             Window2 win2 = new Window2();
             win2.ShowDialog();
+        }
+
+        private void button2_Click(object sender, RoutedEventArgs e) {
+            Environment.Exit(0);
         }
     }
 }

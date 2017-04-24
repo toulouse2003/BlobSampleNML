@@ -5,11 +5,12 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:BlobSampleNML"
         mc:Ignorable="d"
-        Title="MainWindow" Height="350" Width="265">
+        Title="MainWindow" Height="350" Width="275">
     <Grid Margin="0,0,0,-0.2">
         <Label x:Name="label" Content="BlobSample" HorizontalAlignment="Left" Margin="25,75,0,0" VerticalAlignment="Top" FontSize="36" Width="205"/>
-        <Button x:Name="button" Content="Indsæt" HorizontalAlignment="Left" Margin="8,180,0,0" VerticalAlignment="Top" Width="75" Click="button_Click"/>
-        <Button x:Name="button1" Content="Fremvis" HorizontalAlignment="Left" Margin="163,180,0,0" VerticalAlignment="Top" Width="75" Click="button1_Click"/>
+        <Button x:Name="button" Content="Indsæt" HorizontalAlignment="Left" Margin="10,180,0,0" VerticalAlignment="Top" Width="80" Click="button_Click"/>
+        <Button x:Name="button1" Content="Fremvis" HorizontalAlignment="Left" Margin="170,180,0,0" VerticalAlignment="Top" Width="80" Click="button1_Click"/>
+        <Button x:Name="button2" Content="Luk" HorizontalAlignment="Left" Margin="90,240,0,0" VerticalAlignment="Top" Width="80" Click="button2_Click"/>
 
     </Grid>
 </Window>
