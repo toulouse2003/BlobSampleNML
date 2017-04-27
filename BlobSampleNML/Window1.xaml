@@ -15,13 +15,13 @@
         <Label x:Name="stilling" Content="Stilling" HorizontalAlignment="Left" Margin="35,120,0,0" VerticalAlignment="Top"/>
         <TextBox x:Name="txbStilling" HorizontalAlignment="Left" Height="23" Margin="100,120,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
         <Label x:Name="dato" Content="Ansat den" HorizontalAlignment="Left" Margin="35,150,0,0" VerticalAlignment="Top"/>
-        <DatePicker x:Name="dpDato" HorizontalAlignment="Left" Margin="100,150,0,0" VerticalAlignment="Top"  SelectedDateFormat="Long" SelectedDate="11/08/70"
-                  DisplayDateStart="1/01/01" DisplayDateEnd="12/31/16" 
+        <DatePicker x:Name="dpDato" HorizontalAlignment="Left" Margin="100,150,0,0" VerticalAlignment="Top"  SelectedDateFormat="Long" SelectedDate="11/12/13"
+                  DisplayDateStart="1/01/01" DisplayDateEnd="3/31/17" 
                   FirstDayOfWeek="Monday"/>
         <Label x:Name="chef" Content="Leder" HorizontalAlignment="Left" Margin="35,180,0,0" VerticalAlignment="Top"/>
         <ComboBox x:Name="cbxChef" HorizontalAlignment="Left" Height="23" Margin="100,180,0,0" Text="" VerticalAlignment="Top" Width="120"/>
         <Label x:Name="Foto" Content="Foto" HorizontalAlignment="Left" Margin="35,210,0,0" VerticalAlignment="Top"/>
-        <TextBox x:Name="txbFoto" HorizontalAlignment="Left" Height="23" Margin="230,210,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="txbFoto" HorizontalAlignment="Left" Height="59" Margin="230,210,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="155"/>
         <Button x:Name="btnBrowse" Content="Browse billeder" HorizontalAlignment="Left" Margin="100,210,0,0" VerticalAlignment="Top" Width="100" Height="23" Click="btnBrowse_Click"/>
         <Button x:Name="button" Content="Enter" HorizontalAlignment="Left" Margin="45,250,0,0" VerticalAlignment="Top" Width="75" Click="button_Click"/>
     </Grid>
